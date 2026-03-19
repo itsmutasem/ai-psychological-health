@@ -36,7 +36,7 @@
 
             <form
                 method="POST"
-                action="/analyze"
+                action="/analysis"
                 x-data="{ username: '' }"
                 @submit="if(username.trim() === '') $event.preventDefault()"
                 class="relative w-96 mx-auto mt-8"
