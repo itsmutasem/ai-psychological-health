@@ -8,7 +8,7 @@
     <style>
         body {
             background-color: #000000;
-            background-image: radial-gradient(at 29% 12%, #000000 0%, transparent 60%), radial-gradient(at 58% 18%, #000924 0%, transparent 50%), radial-gradient(at 31% 39%, #0d357d 0%, transparent 40%), radial-gradient(at 66% 98%, #2b315e 0%, transparent 30%);
+            background-image: radial-gradient(at 29% 12%, #000000 0%, transparent 60%), radial-gradient(at 58% 18%, #373737 0%, transparent 50%), radial-gradient(at 31% 39%, #3c3c3c 0%, transparent 40%), radial-gradient(at 66% 98%, #1f1f1f 0%, transparent 30%);
         }
     </style>
 </head>
@@ -24,7 +24,7 @@
              x-transition:enter-start="opacity-0 scale-90"
              x-transition:enter-end="opacity-100 scale-100">
             <div class="text-6xl ">
-                <h1 class="text-white">Psychological Health</h1>
+                <h1 class="font-semibold text-transparent p-3 bg-clip-text bg-gradient-to-r from-gray-300 to-gray-400">Psychological Health</h1>
             </div>
         </div>
 
@@ -39,7 +39,7 @@
                 action="/analysis"
                 x-data="{ username: '' }"
                 @submit="if(username.trim() === '') $event.preventDefault()"
-                class="relative w-96 mx-auto mt-8"
+                class="relative w-96 mx-auto mt-6"
             >
                 @csrf
                 <div class="absolute inset-y-0 left-0 flex items-center pl-3 text-white/60 pointer-events-none">

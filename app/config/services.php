@@ -35,4 +35,8 @@ return [
         ],
     ],
 
+    'twitter' => [
+        'token' => env('TWITTER_BEARER_TOKEN'),
+    ],
+
 ];
