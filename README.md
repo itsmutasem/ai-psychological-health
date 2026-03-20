@@ -1,1 +1,1 @@
-# ai-psychological-health-ruaa
+# ai-psychological-health
